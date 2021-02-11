@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "myraidPro.OTF";
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: coral;
+    background-image: linear-gradient(#f0f0f0,#e2e2e2);
+}
+.logo{
+    margin-left: 45px;
+}
+nav ul{
+    border: 1px solid #ccc;
+    display: table;
+    border-radius: 6px;
+}
+nav ul li{
+    list-style: none;
+    border-right: 1px solid #ccc;
+    display: table-cell;
+    background-image: linear-gradient(#ffff,#cccc);
+}
+nav ul li :last-child{
+    border-right: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 51.6px;
+    color: black;
+    font-size: 20pt;
+}
+nav ul li a:hover{
+    background-image: linear-gradient(#4fa5b6,#328fa4);
+    color: #fff;
+}
+.section1{
+    overflow: hidden;
+}
+.baraban{
+    float:left;
+    width: 45%;
+    display: inline-block;
+}
+.innercode{
+    display: inline-block;
+}
+.innercode h1{
+    font-size: 58pt;
+}
+.innercode h2{
+    font-size: 40pt;
+}
+.btn1{
+    font-size: 30pt;
+    color: #fff;
+    background-image: linear-gradient(#4fa5b6,#328fa4);
+    padding: 15px 22px;
+    margin: 0 auto;
+    width: 235px;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+.btn1:hover{
+    background-image: linear-gradient(#b9e8f1,#a8e0ec);
+    color: black;
+}
+.kok{
+    color: #318ea2;
+    font-weight: bold;
+}
+.section2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.fourrasm{
+    width: 100%;
+    background-color: #fff;
+}
+.fourrasm div{
+    width: 23%;
+    margin: 5px;
+    display: inline-block;
+}
+.next{
+    width: 30px;
+}
+#pasich{
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+.qator1{
+    width: 70%;
+    /* display: inline-block; */
+    float: left;
+} 
+.qator1 img{
+    width: 20%;
+}
+.pich1 .pich2{
+    width: 80%;
+}
+.qator1 img, .pich1 .pich2{
+    float:left;
+}
+.qator1 h1{
+    font-size: 33pt;
+}
+.qator1 h3{
+    font-size: 13pt;
+    margin-top: 30px;
+}
+.qator1 p{
+    margin-top: 30px;
+}
+.qator2{
+    width: 30%;
+    /* display: inline-block; */
+    float: right;
+}
+.qator2 img:first-child{
+    width: 35%;
+    float: left;
+}
+.pichich{
+    float: left;
+    width: 60%;
+}
+.qator2 h2{
+    font-size: 33pt;
+}
+.pt p{
+    font-size: 13pt;
+}
+.lqator ul li, .rqator ul li{
+    list-style: none;
+}
+.lqator, .rqator{
+    float: left;
+    padding-left: 40px;
+}
+.lqator{
+    margin-right: 35px;
+}
+.rqator{
+    border-left: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clr{
+    clear: both;
+}
