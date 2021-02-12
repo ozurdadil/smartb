@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "myraidPro.OTF";
 }
+body{
+    background-image: linear-gradient(#e5e5e5,#e2e2e2);
+}
 
 .container{
     margin: 0 auto;
@@ -45,7 +48,6 @@ nav ul li a:hover{
 .baraban{
     float:left;
     width: 45%;
-    display: inline-block;
 }
 .innercode{
     display: inline-block;
@@ -138,9 +140,20 @@ nav ul li a:hover{
 .pt p{
     font-size: 13pt;
 }
+.pastgi_qator{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.lqator ul img{
+    width: 12px;
+}
+.rqator ul img{
+    width: 12px;
+    }
 .lqator ul li, .rqator ul li{
     list-style: none;
 }
+
 .lqator, .rqator{
     float: left;
     padding-left: 40px;
@@ -150,6 +163,14 @@ nav ul li a:hover{
 }
 .rqator{
     border-left: 1px solid #ccc;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 45px;
 }
 
 
